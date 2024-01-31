@@ -1,0 +1,22 @@
+div{
+    width: 100%;
+    height: 100%;
+}
+table,td,th{
+    background-color: whitesmoke;
+    /* border: 2px solid black; */
+    padding: 1px;
+}
+#like{
+    margin-top: 2px;
+}
+.r:hover{ color: blue;
+}
+.user{
+    font-size: 14px;
+    font-weight: bold;
+}
+.tiempo{
+    font-size: 14px;
+    color: gray;
+}
