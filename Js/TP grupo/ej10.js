@@ -1,6 +1,10 @@
 
 function calcularDias() {
+    var patron = /^(\d{2}|\d)(-)(\d{2}|\d)(-)\d{4}$/
     var fechaIngresada = document.getElementById('fecha').value;
+    var teesteo = patron.test(fechaIngresada);
+    console.log("es "+teesteo);
+
     var fechaEnPartes = fechaIngresada.split('-');
     
     // Tuve que convertir la fecha a formato A/M/D porque no sabia como hacer para calcular sino.
