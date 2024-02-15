@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        const nombre = prompt("¿Como te llamas?");
+
+        const fecha1 = new Date();
+        const fecha2 = new Date();
+
+        const anio = (2024-Number(prompt("¿Cuantos años tenés?")))
+        fecha2.setFullYear(anio);
+        console.log(fecha1);
+        console.log(fecha2);
+      const dias =fecha1-fecha2;
+      alert("!Gracias "+ nombre+ "¡ viviste "+Math.ceil(dias / (1000 * 60 * 60 * 24))+" dias hasta la fecha.");
+    </script>
+</body>
+</html>
